@@ -1,0 +1,5 @@
+Warning[203] C:\USERS\MBAQIRALI\DESKTOP\COUNTER.ASM 145 : Found opcode in column 1. (movlw)
+Warning[203] C:\USERS\MBAQIRALI\DESKTOP\COUNTER.ASM 146 : Found opcode in column 1. (movwf)
+Warning[203] C:\USERS\MBAQIRALI\DESKTOP\COUNTER.ASM 147 : Found opcode in column 1. (incf)
+Warning[203] C:\USERS\MBAQIRALI\DESKTOP\COUNTER.ASM 148 : Found opcode in column 1. (incf)
+Warning[203] C:\USERS\MBAQIRALI\DESKTOP\COUNTER.ASM 149 : Found opcode in column 1. (incf)
