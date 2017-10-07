@@ -1,0 +1,474 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA_POWER
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack $VIA_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  )
+  (network_out
+   (Net #00019 
+   (rule
+   )
+   (wire (path BOT 127000  4445000 -6858000 3619500 -6858000 3619500 -7874000
+     1016000 -7874000 1016000 -6369000 1524000 -6369000)
+    (connect (terminal pin PIC18F4550-17) (terminal pin C1-1))
+   )
+   )
+   (Net #00047 
+   (rule
+   )
+   (wire (path BOT 127000  8128000 -5207000 8128000 -4572000 8382000 -4572000
+     8382000 -3048000)
+    (connect (terminal pin D5-0) (terminal pin R2-0))
+   )
+   )
+   (Net GND 
+   (rule
+   )
+   (wire (path BOT 127000  8690000 -9344660 8686800 -9344660 8686800 -8308676
+     8509000 -8308676 8509000 -6985000)
+    (connect (terminal pin J7-3) (terminal wire))
+   )
+   (wire (path BOT 127000  2540000 -1397000 1143000 -1397000 1143000 -3429000)
+    (connect (terminal pin LM7805-1) (terminal pin C7-0))
+   )
+   (wire (path BOT 127000  8128000 -5461000 7366000 -5461000 7366000 -4826000
+     5969000 -4826000)
+    (connect (terminal pin D5-1) (terminal pin PIC18F4550-30))
+   )
+   (wire (path BOT 127000  1651000 -4845000 1206500 -4845000 1206500 -4127500
+     2159000 -4127500 2159000 -5334000 4445000 -5334000)
+    (connect (terminal pin C2-1) (terminal pin PIC18F4550-11))
+   )
+   (wire (path BOT 127000  8128000 -5461000 8128000 -6096000 8509000 -6096000
+     8509000 -6985000)
+    (connect (terminal pin D5-1) (terminal wire))
+   )
+   (wire (path BOT 127000  539000 -4191000 539000 -3746500 1143000 -3746500
+     1143000 -3429000)
+    (connect (terminal pin C6-1) (terminal pin C7-0))
+   )
+   (wire (path BOT 127000  4445000 -5334000 5080000 -5334000 5080000 -4826000)
+    (connect (terminal pin PIC18F4550-11) (terminal wire))
+   )
+   (wire (path BOT 127000  666000 -5334000 666000 -5588000 1270000 -5588000)
+    (connect (terminal pin C4-1) (terminal wire))
+   )
+   (wire (path BOT 127000  666000 -5334000 666000 -5080000 539000 -5080000
+     539000 -4191000)
+    (connect (terminal pin C4-1) (terminal pin C6-1))
+   )
+   (wire (path BOT 127000  1651000 -4845000 1651000 -5143500 1270000 -5143500)
+    (connect (terminal pin C2-1) (terminal wire))
+   )
+   (wire (path BOT 127000  1524000 -5969000 1524000 -5588000 1270000 -5588000)
+    (connect (terminal pin C1-0) (terminal wire))
+   )
+   (wire (path BOT 127000  1524000 -5969000 1841500 -5969000 1841500 -7048500
+     1505000 -7048500 1505000 -7366000)
+    (connect (terminal pin C1-0) (terminal pin C3-1))
+   )
+   (wire (path BOT 127000  5080000 -4826000 5080000 -1270000)
+    (connect (terminal wire) (terminal pin "ICSP CONNECTOR"-2))
+   )
+   (wire (path BOT 127000  5080000 -4826000 5969000 -4826000)
+    (connect (terminal wire) (terminal pin PIC18F4550-30))
+   )
+   (wire (path BOT 127000  1270000 -5143500 1270000 -5588000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 127000  8509000 -6985000 8890000 -6985000)
+    (connect (terminal wire) (terminal pin "PWR SCKT"-1))
+   )
+   )
+   (Net MCLR 
+   (rule
+   )
+   (wire (path BOT 127000  8890000 -4572000 8890000 -635000 4572000 -635000
+     4572000 -1270000)
+    (connect (terminal pin R1-0) (terminal pin "ICSP CONNECTOR"-0))
+   )
+   (wire (path BOT 127000  4445000 -2540000 4445000 -1824106 4572000 -1824106
+     4572000 -1270000)
+    (connect (terminal pin PIC18F4550-0) (terminal pin "ICSP CONNECTOR"-0))
+   )
+   )
+   (Net OSC1 
+   (rule
+   )
+   (wire (path BOT 127000  1651000 -4445000 1968500 -4445000 1968500 -5651500
+     2921000 -5651500)
+    (connect (terminal pin C2-0) (terminal wire))
+   )
+   (wire (path BOT 127000  2921000 -5651500 3111500 -5651500 3111500 -5588000
+     4445000 -5588000)
+    (connect (terminal wire) (terminal pin PIC18F4550-12))
+   )
+   (wire (path BOT 127000  2921000 -5651500 2921000 -5969000)
+    (connect (terminal wire) (terminal pin "CRYSTAL OSC"-0))
+   )
+   )
+   (Net OSC2 
+   (rule
+   )
+   (wire (path BOT 127000  2921000 -6477000 3429000 -6477000 3429000 -5842000
+     4445000 -5842000)
+    (connect (terminal pin "CRYSTAL OSC"-1) (terminal pin PIC18F4550-13))
+   )
+   (wire (path BOT 127000  1905000 -7366000 2921000 -7366000 2921000 -6477000)
+    (connect (terminal pin C3-0) (terminal pin "CRYSTAL OSC"-1))
+   )
+   )
+   (Net RA0 
+   (rule
+   )
+   (wire (path BOT 127000  4445000 -2794000 2921000 -2794000)
+    (connect (terminal pin PIC18F4550-1) (terminal pin "PORT A"-5))
+   )
+   )
+   (Net RA1 
+   (rule
+   )
+   (wire (path BOT 127000  4445000 -3048000 2921000 -3048000)
+    (connect (terminal pin PIC18F4550-2) (terminal pin "PORT A"-4))
+   )
+   )
+   (Net RA2 
+   (rule
+   )
+   (wire (path BOT 127000  4445000 -3302000 2921000 -3302000)
+    (connect (terminal pin PIC18F4550-3) (terminal pin "PORT A"-3))
+   )
+   )
+   (Net RA3 
+   (rule
+   )
+   (wire (path BOT 127000  4445000 -3556000 2921000 -3556000)
+    (connect (terminal pin PIC18F4550-4) (terminal pin "PORT A"-2))
+   )
+   )
+   (Net RA4 
+   (rule
+   )
+   (wire (path BOT 127000  4445000 -3810000 2921000 -3810000)
+    (connect (terminal pin PIC18F4550-5) (terminal pin "PORT A"-1))
+   )
+   )
+   (Net RA5 
+   (rule
+   )
+   (wire (path BOT 127000  4445000 -4064000 2921000 -4064000)
+    (connect (terminal pin PIC18F4550-6) (terminal pin "PORT A"-0))
+   )
+   )
+   (Net RB0 
+   (rule
+   )
+   (wire (path BOT 127000  7112000 -4318000 5969000 -4318000)
+    (connect (terminal pin "PORT B"-7) (terminal pin PIC18F4550-32))
+   )
+   )
+   (Net RB1 
+   (rule
+   )
+   (wire (path BOT 127000  5969000 -4064000 7112000 -4064000)
+    (connect (terminal pin PIC18F4550-33) (terminal pin "PORT B"-6))
+   )
+   )
+   (Net RB2 
+   (rule
+   )
+   (wire (path BOT 127000  5969000 -3810000 7112000 -3810000)
+    (connect (terminal pin PIC18F4550-34) (terminal pin "PORT B"-5))
+   )
+   )
+   (Net RB3 
+   (rule
+   )
+   (wire (path BOT 127000  5969000 -3556000 7112000 -3556000)
+    (connect (terminal pin PIC18F4550-35) (terminal pin "PORT B"-4))
+   )
+   )
+   (Net RB4 
+   (rule
+   )
+   (wire (path BOT 127000  5969000 -3302000 7112000 -3302000)
+    (connect (terminal pin PIC18F4550-36) (terminal pin "PORT B"-3))
+   )
+   )
+   (Net RB5 
+   (rule
+   )
+   (wire (path BOT 127000  5969000 -3048000 7112000 -3048000)
+    (connect (terminal pin PIC18F4550-37) (terminal pin "PORT B"-2))
+   )
+   )
+   (Net RB6 
+   (rule
+   )
+   (wire (path BOT 127000  5969000 -2794000 5588000 -2794000 5588000 -1270000)
+    (connect (terminal pin PIC18F4550-38) (terminal pin "ICSP CONNECTOR"-4))
+   )
+   (wire (path BOT 127000  5969000 -2794000 7112000 -2794000)
+    (connect (terminal pin PIC18F4550-38) (terminal pin "PORT B"-1))
+   )
+   )
+   (Net RB7 
+   (rule
+   )
+   (wire (path BOT 127000  5334000 -1270000 5334000 -1016000 6286500 -1016000
+     6286500 -1714500 5969000 -1714500 5969000 -2540000)
+    (connect (terminal pin "ICSP CONNECTOR"-3) (terminal pin PIC18F4550-39))
+   )
+   (wire (path BOT 127000  5969000 -2540000 7112000 -2540000)
+    (connect (terminal pin PIC18F4550-39) (terminal pin "PORT B"-0))
+   )
+   )
+   (Net RC0 
+   (rule
+   )
+   )
+   (Net RC1 
+   (rule
+   )
+   )
+   (Net RC2 
+   (rule
+   )
+   (wire (path BOT 127000  4445000 -6604000 4953000 -6604000 4953000 -9017000)
+    (connect (terminal pin PIC18F4550-16) (terminal pin "PORT C"-4))
+   )
+   )
+   (Net RC3 
+   (rule
+   )
+   )
+   (Net RC4 
+   (rule
+   )
+   (wire (path BOT 127000  5969000 -6858000 5715000 -6858000 5715000 -8079898
+     6223000 -8079898 6223000 -9271000)
+    (connect (terminal pin PIC18F4550-22) (terminal wire))
+   )
+   (wire (path BOT 127000  6223000 -9271000 6413500 -9271000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 127000  5207000 -9017000 5207000 -9271000 6223000 -9271000)
+    (connect (terminal pin "PORT C"-3) (terminal wire))
+   )
+   )
+   (Net RC5 
+   (rule
+   )
+   (wire (path BOT 127000  5969000 -6604000 5461000 -6604000 5461000 -9017000)
+    (connect (terminal pin PIC18F4550-23) (terminal pin "PORT C"-2))
+   )
+   )
+   (Net RC6 
+   (rule
+   )
+   )
+   (Net RC7 
+   (rule
+   )
+   )
+   (Net RD0 
+   (rule
+   )
+   (wire (path BOT 127000  4445000 -7112000 4000500 -7112000 4000500 -9779000
+     7112000 -9779000 7112000 -6858000)
+    (connect (terminal pin PIC18F4550-18) (terminal pin "PORT D"-7))
+   )
+   )
+   (Net RD1 
+   (rule
+   )
+   (wire (path BOT 127000  4445000 -7366000 4445000 -8001000 4191000 -8001000
+     4191000 -9588500 6794500 -9588500 6794500 -6604000 7112000 -6604000)
+    (connect (terminal pin PIC18F4550-19) (terminal pin "PORT D"-6))
+   )
+   )
+   (Net RD2 
+   (rule
+   )
+   (wire (path BOT 127000  5969000 -7366000 6604000 -7366000 6604000 -6350000
+     7112000 -6350000)
+    (connect (terminal pin PIC18F4550-20) (terminal pin "PORT D"-5))
+   )
+   )
+   (Net RD3 
+   (rule
+   )
+   (wire (path BOT 127000  5969000 -7112000 6413500 -7112000 6413500 -6096000
+     7112000 -6096000)
+    (connect (terminal pin PIC18F4550-21) (terminal pin "PORT D"-4))
+   )
+   )
+   (Net RD4 
+   (rule
+   )
+   (wire (path BOT 127000  7112000 -5842000 5969000 -5842000)
+    (connect (terminal pin "PORT D"-3) (terminal pin PIC18F4550-26))
+   )
+   )
+   (Net RD5 
+   (rule
+   )
+   (wire (path BOT 127000  5969000 -5588000 7112000 -5588000)
+    (connect (terminal pin PIC18F4550-27) (terminal pin "PORT D"-2))
+   )
+   )
+   (Net RD6 
+   (rule
+   )
+   )
+   (Net RD7 
+   (rule
+   )
+   (wire (path BOT 127000  7112000 -5080000 5969000 -5080000)
+    (connect (terminal pin "PORT D"-0) (terminal pin PIC18F4550-29))
+   )
+   )
+   (Net RE0 
+   (rule
+   )
+   (wire (path BOT 127000  4445000 -4318000 2921000 -4318000)
+    (connect (terminal pin PIC18F4550-7) (terminal pin "PORT E"-2))
+   )
+   )
+   (Net RE1 
+   (rule
+   )
+   (wire (path BOT 127000  2921000 -4572000 4445000 -4572000)
+    (connect (terminal pin "PORT E"-1) (terminal pin PIC18F4550-8))
+   )
+   )
+   (Net RE2 
+   (rule
+   )
+   (wire (path BOT 127000  4445000 -4826000 2921000 -4826000)
+    (connect (terminal pin PIC18F4550-9) (terminal pin "PORT E"-0))
+   )
+   )
+   (Net VCC/VDD 
+   (rule
+   )
+   (wire (path BOT 127000  7747000 -2730500 7747000 -825500 4826000 -825500
+     4826000 -1270000)
+    (connect (terminal wire) (terminal pin "ICSP CONNECTOR"-1))
+   )
+   (wire (path BOT 127000  5969000 -4572000 7747000 -4572000 7747000 -2730500)
+    (connect (terminal pin PIC18F4550-31) (terminal wire))
+   )
+   (wire (path BOT 127000  2667000 -3429000 2667000 -5080000 4445000 -5080000)
+    (connect (terminal wire) (terminal pin PIC18F4550-10))
+   )
+   (wire (path BOT 127000  8890000 -4889500 8572500 -4889500 8572500 -4008399
+     8699500 -4008399 8699500 -2730500 7747000 -2730500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 127000  4826000 -1270000 4826000 -5080000 4445000 -5080000)
+    (connect (terminal pin "ICSP CONNECTOR"-1) (terminal pin PIC18F4550-10))
+   )
+   (wire (path BOT 127000  8890000 -4889500 9398000 -4889500 9398000 -3048000)
+    (connect (terminal wire) (terminal pin R2-1))
+   )
+   (wire (path BOT 127000  889000 -4191000 889000 -3937000 1543000 -3937000
+     1543000 -3429000)
+    (connect (terminal pin C6-0) (terminal pin C7-1))
+   )
+   (wire (path BOT 127000  2540000 -1651000 2540000 -2032000 2667000 -2032000
+     2667000 -3429000)
+    (connect (terminal pin LM7805-0) (terminal wire))
+   )
+   (wire (path BOT 127000  1016000 -5334000 1016000 -5080000 889000 -5080000
+     889000 -4191000)
+    (connect (terminal pin C4-0) (terminal pin C6-0))
+   )
+   (wire (path BOT 127000  1543000 -3429000 2667000 -3429000)
+    (connect (terminal pin C7-1) (terminal wire))
+   )
+   (wire (path BOT 127000  8890000 -6588760 8890000 -5588000)
+    (connect (terminal pin "PWR SCKT"-0) (terminal pin R1-1))
+   )
+   (wire (path BOT 127000  8890000 -5588000 8890000 -4889500)
+    (connect (terminal pin R1-1) (terminal wire))
+   )
+   (wire (path BOT 127000  2540000 -1651000 2984500 -1651000 2984500 -1143000
+     2540000 -1143000)
+    (connect (terminal pin LM7805-0) (terminal pin LM7805-2))
+   )
+   )
+  )
+ )
